@@ -20,6 +20,8 @@
 		9373848422CF9C5C00E5D172 /* opengl_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9373847B22CF9C5C00E5D172 /* opengl_cb.h */; };
 		9373848522CF9C5C00E5D172 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 9373847C22CF9C5C00E5D172 /* render.h */; };
 		9373848722CF9D5800E5D172 /* SwiftMPV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9373848622CF9D5800E5D172 /* SwiftMPV.swift */; };
+		9373848922CF9EF900E5D172 /* SwiftMPVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9373848822CF9EF900E5D172 /* SwiftMPVError.swift */; };
+		9373848B22CFAA5600E5D172 /* SwiftMPVClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9373848A22CFAA5600E5D172 /* SwiftMPVClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		9373847B22CF9C5C00E5D172 /* opengl_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opengl_cb.h; sourceTree = "<group>"; };
 		9373847C22CF9C5C00E5D172 /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
 		9373848622CF9D5800E5D172 /* SwiftMPV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMPV.swift; sourceTree = "<group>"; };
+		9373848822CF9EF900E5D172 /* SwiftMPVError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMPVError.swift; sourceTree = "<group>"; };
+		9373848A22CFAA5600E5D172 /* SwiftMPVClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMPVClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				9373845A22CF9C4700E5D172 /* SwiftMPV.h */,
 				9373845B22CF9C4700E5D172 /* Info.plist */,
 				9373848622CF9D5800E5D172 /* SwiftMPV.swift */,
+				9373848822CF9EF900E5D172 /* SwiftMPVError.swift */,
+				9373848A22CFAA5600E5D172 /* SwiftMPVClient.swift */,
 			);
 			path = SwiftMPV;
 			sourceTree = "<group>";
@@ -253,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9373848922CF9EF900E5D172 /* SwiftMPVError.swift in Sources */,
 				9373848722CF9D5800E5D172 /* SwiftMPV.swift in Sources */,
+				9373848B22CFAA5600E5D172 /* SwiftMPVClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
