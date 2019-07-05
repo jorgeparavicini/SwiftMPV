@@ -8,3 +8,9 @@
 
 import Foundation
 import libmpv
+
+public class SwiftMPV {
+    static let version: Int = {
+        return Int(mpv_client_api_version())
+    }()
+}
