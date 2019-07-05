@@ -1,0 +1,4 @@
+module libmpv [system][extern_c] {
+    header "client.h"
+    export *
+}
